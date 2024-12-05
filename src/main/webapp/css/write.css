@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.btn {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	border: none;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+}
+
+input {
+	width: 800px;
+	outline: none;
+}
+
+.title {
+	height: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	border-width: 0 0 1 0px;
+}
+
+.content {
+	height: 200px;
+	border: none;
+	text-align: top;
+}
+
+p:nth-child(1) {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+p {
+	text-align: center;
+	padding: 5px;
+}
