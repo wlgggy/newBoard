@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+	text-decoration: none;
+	color: inherit;
+}
+
+section {
+	position: relative;
+}
+
+.write {
+	margin-left: 700px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	color: white;
+}
+
+.info, .con {
+	display: flex;
+}
+
+.id, .title, .date {
+	padding: 10px 0;
+	text-align: center;
+}
+
+.id {
+	width: 100px;
+}
+
+.title {
+	width: 500px;
+}
+
+.title:hover>a {
+	color: red;
+}
+
+.date {
+	width: 200px;
+}
